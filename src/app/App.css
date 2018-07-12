@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'customFont';
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body {
+  font-family: customFont;
+  background-color: #fefefe;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.video-react {
+  height: 100% !important;
+}
+
+#video {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  display: none;
+}
+
+.show-video {
+  display: inline-block !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

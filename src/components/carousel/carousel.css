@@ -1,0 +1,16 @@
+.legend {
+	margin-left: -50% !important;
+	width: 100% !important;
+	background-color: transparent !important;
+	font-size: 24px !important;
+	opacity: 1 !important;
+	bottom: 40% !important;
+}
+
+.control-dots {
+	padding-left: 0px;
+}
+
+.black {
+	color: black !important;
+}

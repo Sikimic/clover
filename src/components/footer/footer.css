@@ -1,0 +1,47 @@
+.footer {
+	text-align: center;
+	height: 35px;
+}
+
+.row {
+	padding: 1em;
+}
+
+.top {
+	background-color: #efefef;
+	/*border-top: 1px #dedede solid;*/
+	border-bottom: 1px #dedede solid;
+	font-size: 11px;
+}
+
+.bottom {
+	font-size: 10px;
+	background-color: #efefef;
+}
+
+.copyright {
+	float: left;
+	margin-left: 1em;
+}
+
+.arrow {
+	float: right;
+	margin-right: 1em;
+	font-size: 12px;
+}
+
+.icon-wrapper {
+	display: block;
+	padding: 0.5em;
+	position: relative;
+	left: -0.5em;
+}
+
+.icon {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  margin-left: 1em;
+  margin-right: 1em;
+  float: right;
+}

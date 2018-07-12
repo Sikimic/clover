@@ -1,0 +1,109 @@
+.container-content {
+	margin: 4em;
+}
+
+.thumbnail-box {
+  transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -webkit-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  position: relative;
+  margin-bottom: 4em;
+  cursor: pointer;
+}
+
+.thumbnail-box:hover {
+  background-size: 110%;
+}
+
+.lizard {
+	background: url('../../assets/img/gallery.jpg');
+	background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.another {
+	background: url('../../assets/img/gallery2.jpg');
+	background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.description {
+	position: absolute;
+	color: white;
+	text-align: center;
+	width: 340px;
+	left: 50%;
+	top:40%;
+	margin-left: -170px;
+	/*text-shadow: 1px 1px 1px black;*/
+}
+
+.description > h3 {
+	font-size: 35px;
+	letter-spacing: 25px;
+}
+
+@media only screen and (min-width: 1500px) {
+	.thumbnail-box {
+		height: 700px;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+	.thumbnail-box {
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+	.thumbnail-box {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+	.thumbnail-box {
+		height: 400px;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+	.thumbnail-box {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 399px) {
+	.thumbnail-box {
+		height: 200px;
+	}
+
+	.description {
+		top:30%;
+	}
+
+	.description > h3 {
+		letter-spacing: 5px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.container-content {
+		margin-right: 0em;
+		margin-left: 0em;
+	}
+
+	.thumbnail-box {
+  	background-size: cover;
+	}
+
+	.thumbnail-box:hover {
+	  background-size: cover;
+	}
+
+}
+

@@ -1,0 +1,46 @@
+.content {
+	margin-bottom: 4em;
+	margin-top: 5em;
+	max-width: 1170px;
+}
+
+.relative {
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.img-wrapper {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.img-box {
+	width: inherit;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+	transition: all ease .5s;
+	/*border-radius: 50%;*/
+}
+
+.img-box:hover {
+	opacity: 0;
+}
+
+.between {
+	margin-bottom: -2em;
+}
+
+.img-background {
+	width: 100%;
+	margin-top: -1em;
+	/*border-radius: 50%;*/
+}
+
+@media only screen and (max-width: 767px) {
+
+}

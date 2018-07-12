@@ -1,0 +1,74 @@
+.contact-content {
+	margin-bottom: 4em;
+	margin-top: 75px;
+	padding-top: 5em;
+}
+
+.marker {
+	cursor: pointer;
+	transform-origin: bottom;
+}
+
+.marker > img {
+	width: 24px;
+	position: relative;
+	top: -10px;
+	transform-origin: bottom;
+}
+
+table {
+	font-size: 16px;
+	width: 100%;
+}
+
+table > tbody > tr {
+	vertical-align: top;
+	height: 50px;
+}
+
+.location-map {
+	height: 400px;
+	margin-bottom: 2em;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.link-cel {
+	text-decoration: none;
+	color: #3E876B;
+}
+
+.link-cel:hover, .link-cel:after, .link-cel:focus, .link-cel:active {
+	text-decoration: none;
+	color: #2B5945;
+}
+
+.link-email-hidden {
+	display: none;
+}
+
+@media only screen and (min-width: 1500px) {
+	.container {
+		width: 1370px;
+	}
+
+}
+
+@media only screen and (max-width: 350px) {
+	
+	.link-email-hidden {
+		display: inline-block;
+	}
+
+	.link-email {
+		display: none;
+	}
+
+}
